@@ -1,0 +1,10 @@
+your_data_path/
+|-- person1/
+|   |-- person1_001.jpg
+|   |-- person1_002.jpg
+|   |-- ...
+|-- person2/
+|   |-- person2_001.jpg
+|   |-- person2_002.jpg
+|   |-- ...
+|-- ...
