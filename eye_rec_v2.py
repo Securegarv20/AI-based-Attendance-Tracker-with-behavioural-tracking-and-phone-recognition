@@ -102,7 +102,7 @@ def main():
     eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
     # Load your trained face recognizer
-    face_recognizer, label_dict = train_face_recognizer(r'C:\Users\garvk\OneDrive\Desktop\college\pcl\your_data_path')
+    face_recognizer, label_dict = train_face_recognizer(r'your_data_path')
 
     while True:
         # Read a frame from the camera

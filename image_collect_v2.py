@@ -1,7 +1,7 @@
 import cv2
 import os
 
-def capture_images(person_name, output_path=r'C:\Users\garvk\Desktop\pcl_final\your_data_path'):
+def capture_images(person_name, output_path=r'your_data_path'):
     cap = cv2.VideoCapture(0)
 
     # Check if the video capture has been initialized correctly
