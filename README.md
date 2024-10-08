@@ -1,7 +1,9 @@
 ﻿# AI-based Attendance Tracker with Behavioural Tracking and Phone Recognition
 
-![Face Rec Eye Open Photo](test1.png)
-![Face RecnEye Close Photo](test2.png)
+# Sample Images
+
+<img src="test1.png" alt="Face Rec Eye Open Photo" width="300" height="300"> <img src="test2.png" alt="Face Rec Eye Close Photo" width="300" height="300">
+
 
 ## Overview
 This project is designed to track attendance using AI and facial recognition. It can also monitor student behavior during class, detecting if students are distracted or not paying attention. Additionally, it includes a functionality for phone usage detection.
