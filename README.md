@@ -40,7 +40,12 @@ Before running the scripts, ensure you have the following software installed:
 Logs of each activity can be found in the log_data folder, under a subfolder named after the user, containing a log.txt file with live logs including proper text and timestamps.
 
 ## Additional Information
-Download the Haar Cascade File: Ensure you have the see `haarcascade_frontalface_default.xml` file available for facial recognition. You can download it from the OpenCV GitHub repository [here](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml).
+1. Download the Haar Cascade File: Ensure you have the see `haarcascade_frontalface_default.xml` file available for facial recognition. You can download it from the OpenCV GitHub repository [here](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml).
+
+2. **Alternative Method**
+You can also use the command line to download the file directly using wget (if you have it installed) or curl. Here's an example:
+   ```bash
+   wget https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml
 
 ## Contribution
 Feel free to fork the repository, make changes, and submit a pull request if you have improvements or bug fixes.
